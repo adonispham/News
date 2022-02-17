@@ -1,0 +1,15 @@
+{
+  "autoload": {
+    "psr-4": {
+      "Framework\\": [
+        "app/",
+        "libs/"
+      ]
+    }
+  },
+  "require": {
+    "jenssegers/blade": "^1.4",
+    "ext-mysqli": "*",
+    "ext-json": "*"
+  }
+}
